@@ -1,0 +1,15 @@
+.ContactForm {
+  width: 400px;
+  border: 2px solid black;
+  padding: 15px;
+}
+.formLabel {
+  display: block;
+  margin-bottom: 20px;
+}
+.formInput {
+  display: block;
+  width: 250px;
+  margin: 10px 0;
+  outline: rgb(63, 154, 240);
+}
