@@ -38,10 +38,15 @@ class App extends Component {
     return contacts.filter(contact =>
       contact.name.toLowerCase().includes(filter.toLocaleLowerCase()),
     );
+
+    // const normolize = filter.toLocaleLowerCase();
+    // return contacts.filter(contact =>
+    //   contact.name.toLowerCase().includes(normolize),
+    // );
   };
   render() {
     const { filter } = this.state;
-
+    // const visibleContacts = this.handleFilter();
     return (
       <section>
         <h1>Phonebook</h1>
